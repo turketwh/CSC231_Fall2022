@@ -65,3 +65,5 @@
 ;(check-expect (longLists '()) '())
 ;(check-expect (longLists '((5) (8 10))) '())
 ;(check-expect (longLists '((1 2 3) (2) (3 4) (1 2 5 8))) '((1 2 3) (1 2 5 8)))
+
+(generate-report)
