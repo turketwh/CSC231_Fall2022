@@ -25,6 +25,7 @@
 ;(check-expect (combinations 5 4) 5)
 ;(check-expect (combinations 5 3) 10)
 ;(check-expect (combinations 6 3) 20)
+;add your own check-expect test for combinations here
 
 
 
@@ -34,7 +35,7 @@
 ;(check-expect (recseq 2) 2)
 ;(check-expect (recseq 3) 0)
 ;(check-expect (recseq 4) -4)
-
+;add your own check-expect test for recseq here
 
 
 ;uncomment these to test -- isSorted --
@@ -43,7 +44,7 @@
 ;(check-expect (isSorted '(1 2 3)) true)
 ;(check-expect (isSorted '(3 2 1)) false)
 ;(check-expect (isSorted '(1 4 3)) false)
-
+;add your own check-expect test for isSorted here
 
 
 (define (isEven n)
@@ -66,26 +67,27 @@
 ;(check-expect (holdsForAll isEven '(2 3 6)) false)
 ;(check-expect (holdsForAll isOdd '(2 4 6)) false)
 ;(check-expect (holdsForAll isOdd '(1 3 5)) true)
-
+;add your own check-expect test for holdsForAll here
 
 
 ; uncomment these to test -- maxInventory --
 ;(check-expect (maxInventory '((1 2))) 2)
 ;(check-expect (maxInventory '((1 2) (3 8) (5 4))) 8)
 ;(check-expect (maxInventory '((1 2) (3 0) (5 4))) 4)
-
+;add your own check-expect test for maxInventory here
 
 
 ; uncomment these to test -- checkInventory --
 ;(check-expect (checkInventory '((1 2))) '(1))
 ;(check-expect (checkInventory '((1 2) (3 0) (5 4))) '(1 5))
 ;(check-expect (checkInventory '((1 2) (3 0) (5 4) (8 0))) '(1 5))
-
+;add your own check-expect test for checkInventory here
 
 
 ; uncomment these to test -- increaseInventory --
 ;(check-expect (increaseInventory '((1 2))) '((1 12)))
 ;(check-expect (increaseInventory '((1 2) (3 0) (5 4))) '((1 12) (3 10) (5 14)))
 ;(check-expect (increaseInventory '((1 2) (3 0) (5 4) (8 0))) '((1 12) (3 10) (5 14) (8 10)))
+;add your own check-expect test for increaseInventory here
 
 (generate-report)
