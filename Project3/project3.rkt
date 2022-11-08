@@ -25,7 +25,6 @@
 ;(check-expect (combinations 5 4) 5)
 ;(check-expect (combinations 5 3) 10)
 ;(check-expect (combinations 6 3) 20)
-;(check-expect (combinations 6 4) 15)
 
 
 
