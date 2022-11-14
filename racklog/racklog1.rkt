@@ -73,3 +73,9 @@
          (%< hours 90)
          (%>= hours 60)
          (%>= gpa 1.80)]))
+         
+; a (partially complete) ancester relation
+(define %ancestor
+  (%rel (x y)
+        [(x y)
+         (%parent x y)]))
